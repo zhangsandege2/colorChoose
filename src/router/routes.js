@@ -25,6 +25,14 @@ const routes = [
     {
         path: '/scratchableLatex',
         component: ()=>import('../views/scratchableLatex/index.vue')
+    },
+    {
+      path: '/babylon',
+      component: ()=>import('../views/babylon/index.vue')
+    },
+    {
+      path: '/firstVue',
+      component: ()=>import('../views/firstVue/index.vue')
     }
   ]
 
