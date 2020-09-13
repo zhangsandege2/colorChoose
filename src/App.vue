@@ -3,8 +3,9 @@
     <div id="nav">
       <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> -->
-      <router-link to="/babylon">Babylon</router-link>
-      <router-link to="/firstVue">firstVue</router-link>
+      <router-link to="/babylon">Babylon</router-link> | 
+      <router-link to="/firstVue">firstVue</router-link> |
+      <router-link to="/root">SecondVue</router-link>
     </div>
     <router-view/>
   </div>

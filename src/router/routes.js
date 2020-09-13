@@ -33,6 +33,22 @@ const routes = [
     {
       path: '/firstVue',
       component: ()=>import('../views/firstVue/index.vue')
+    },
+    {
+      path: '/header',
+      component: ()=>import('../views/secondVue/HeaderX.vue')
+    },
+    {
+      path: '/root',
+      component: ()=>import('../views/secondVue/RootX.vue')
+    },
+    {
+      path: '/user',
+      component: ()=>import('../views/secondVue/UserX.vue')
+    },
+    {
+      path: '/text',
+      component: ()=>import('../views/secondVue/TextX.vue')
     }
   ]
 
